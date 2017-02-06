@@ -1,0 +1,36 @@
+{
+  "name": "ts-jest-const-enum-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r00ger/ts-jest-const-enum-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r00ger/ts-jest-const-enum-sample/issues"
+  },
+  "homepage": "https://github.com/r00ger/ts-jest-const-enum-sample#readme",
+  "dependencies": {
+    "@types/jest": "^18.1.1",
+    "jest": "^18.1.0",
+    "ts-jest": "^18.0.3",
+    "typescript": "^2.1.5"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "src/.*Spec\\.(ts|tsx)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }
+}
